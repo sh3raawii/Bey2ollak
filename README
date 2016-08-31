@@ -1,0 +1,11 @@
+—First You need to log in as root, once logged in as root Enter these Commands:
+
+CREATE DATABASE bey2ollakdb;
+CREATE USER ‘bey2ollak’@‘localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON bey2ollakdb.* TO 'bey2ollak'@'localhost';
+FLUSH PRIVILEGES;
+
+- It’s all good now you can run the java code file “part2.java” with Command Line using javac to compile the java file first then run using the java command 
+Or you can open the Solution with Intellij IDEA
+
+— The Code will perform all the scenarios sequentially, all you have to do is press Enter after Every scenario/attempt to Proceed to the next scenario.
